@@ -1,1 +1,1 @@
-# Udemy-clone
+This project is a Udemy-style landing page built using HTML, CSS, and basic web design principles. It features a clean navigation bar, category buttons, a search bar, and a modern hero section with responsive layout elements. The goal of the project is to practice front-end development skills and recreate a professional-looking educational platform interface.
