@@ -16,6 +16,7 @@ body{
     position: sticky;
     top: 0;
     background-color: white;
+    z-index: 1;
 }
 .s1__title{
   color: rgb(126, 81, 126);
@@ -43,6 +44,23 @@ body{
   display: flex;
   gap: 10px;
 }
+.my-learning{
+  position: relative;
+  cursor: pointer;
+}
+.my-learning_popup{
+  position: absolute;
+  background-color: white;
+  border: solid black 1px;
+  width: 100px;
+  top: 150%;
+  padding: 20px;
+  right: 0;
+  display: none;
+}
+.my-learning:hover .my-learning_popup{
+  display: block;
+}
 .categories{
   display: flex;
   padding: 10px;
@@ -55,8 +73,20 @@ body{
   padding: 10px;
   border-radius: 30px;
 }
+.sale-image{
+  position: relative;
+}
 .sale-image img{
   width: 100%;
+}
+.sale-image_offer{
+  width: 35%;
+  border: solid black 2px;
+  background-color: white;
+  padding: 2%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
 }
 .recommended{
   padding: 10px;
